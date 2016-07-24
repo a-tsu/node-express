@@ -1,14 +1,14 @@
 {
-    "name": "calc_app",
-    "version": "0.0.1",
+    "name": "calc_app" ,
+    "version": "0.0.1" ,
     "devDependencies": {
-        "mocha": "*",
-        "should": "*",
-        "sinon": "*",
-    },
+        "mocha": "*" ,
+        "should": "*" ,
+        "sinon": "*"
+    } ,
     "scripts": {
         "test": "mocha test/*"
-    },
+    } ,
     "engines": {
         "node": "0.8.x"
     }
