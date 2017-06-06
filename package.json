@@ -1,14 +1,19 @@
 {
-    "name": "calc_app" ,
-    "version": "0.0.1" ,
-    "devDependencies": {
-        "mocha": "*" ,
-        "sinon": "*"
-    } ,
-    "scripts": {
-        "test": "mocha test/"
-    } ,
-    "engines": {
-        "node": "0.8.x"
-    }
+  "name": "calc_app",
+  "version": "0.0.1",
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "request": "^2.74.0",
+    "riot": "^3.4.2"
+  }
 }
